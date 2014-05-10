@@ -58,7 +58,9 @@ var SVGDOMPropertyConfig = {
     x: MUST_USE_ATTRIBUTE,
     y1: MUST_USE_ATTRIBUTE,
     y2: MUST_USE_ATTRIBUTE,
-    y: MUST_USE_ATTRIBUTE
+    y: MUST_USE_ATTRIBUTE,
+    xmlnsXlink: MUST_USE_ATTRIBUTE,
+    xlinkHref: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
     gradientTransform: 'gradientTransform',
@@ -71,7 +73,9 @@ var SVGDOMPropertyConfig = {
     strokeLinecap: 'stroke-linecap',
     strokeWidth: 'stroke-width',
     textAnchor: 'text-anchor',
-    viewBox: 'viewBox'
+    viewBox: 'viewBox',
+    xmlnsXlink: 'xmlns:xlink',
+    xlinkHref: 'xlink:href'
   }
 };
 
